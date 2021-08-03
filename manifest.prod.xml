@@ -7,7 +7,7 @@
   <DisplayName DefaultValue="EasyData Add-In" />
   <Description DefaultValue="The EasyData Add-In for Excel allows you to retreive up to date data from the EasyData Service."/>
   <IconUrl DefaultValue="https://exceladdin.easydata.co.za/assets/icon-32.png"/>
-  <SupportUrl DefaultValue="https://www.quantec.co.za/easydata/api-tools/eviews-addin/"/>
+  <SupportUrl DefaultValue="https://www.quantec.co.za/easydata/api-tools/excel-addin/"/>
   <Hosts>
     <Host Name="Workbook" />
   </Hosts>
@@ -73,7 +73,7 @@
       <bt:Urls>
         <bt:Url id="EasyData.residTaskPaneUrl" DefaultValue="https://exceladdin.easydata.co.za/index.html">
         </bt:Url>
-        <bt:Url id="EasyData.GetStarted.LearnMoreUrl" DefaultValue="https://www.quantec.co.za/easydata/api-tools/eviews-addin/">
+        <bt:Url id="EasyData.GetStarted.LearnMoreUrl" DefaultValue="https://www.quantec.co.za/easydata/api-tools/excel-addin/">
         </bt:Url>
       </bt:Urls>
 
