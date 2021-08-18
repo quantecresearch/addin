@@ -5,14 +5,15 @@
   <ProviderName>Quantec</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="EasyData Add-In" />
-  <Description DefaultValue="The EasyData Add-In for Excel allows you to retreive up to date data from the EasyData Service."/>
-  <IconUrl DefaultValue="https://exceladdin.easydata.co.za/media/icon-32x32.png"/>
-  <SupportUrl DefaultValue="https://www.quantec.co.za/easydata/api-tools/excel-addin/"/>
+  <Description DefaultValue="The EasyData Add-In for Excel allows you to retreive up to date data from the EasyData Service." />
+  <IconUrl DefaultValue="https://exceladdin.easydata.co.za/media/icon-32x32.png" />
+  <HighResolutionIconUrl DefaultValue="https://exceladdin.easydata.co.za/media/icon-64x64.png" />
+  <SupportUrl DefaultValue="https://www.quantec.co.za/easydata/api-tools/excel-addin/" />
   <Hosts>
     <Host Name="Workbook" />
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://exceladdin.easydata.co.za/index.html"/>
+    <SourceLocation DefaultValue="https://exceladdin.easydata.co.za/index.html" />
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
 
@@ -21,9 +22,9 @@
       <Host xsi:type="Workbook">
         <DesktopFormFactor>
           <GetStarted>
-            <Title resid="EasyData.GetStarted.Title"/>
-            <Description resid="EasyData.GetStarted.Description"/>
-            <LearnMoreUrl resid="EasyData.GetStarted.LearnMoreUrl"/>
+            <Title resid="EasyData.GetStarted.Title" />
+            <Description resid="EasyData.GetStarted.Description" />
+            <LearnMoreUrl resid="EasyData.GetStarted.LearnMoreUrl" />
           </GetStarted>
 
           <ExtensionPoint xsi:type="PrimaryCommandSurface">
